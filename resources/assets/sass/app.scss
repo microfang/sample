@@ -56,6 +56,12 @@ p {
   background-color: $navbar-color;
 }
 
+#logout {
+  cursor: default;
+  &:hover {
+    background-color: transparent;
+  }
+}
 #logo {
   float: left;
   margin-right: 10px;
@@ -151,7 +157,7 @@ section.user_info {
 /* forms */
 
 input, textarea, select, .uneditable-input {
-  border: 1px solid #bbb;
+  border: 1px solid      #bbb;
   margin-bottom: 15px;
 }
 

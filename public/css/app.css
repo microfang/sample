@@ -8408,6 +8408,14 @@ p {
   background-color: #3c3e42;
 }
 
+#logout {
+  cursor: default;
+}
+
+#logout:hover {
+  background-color: transparent;
+}
+
 #logo {
   float: left;
   margin-right: 10px;
@@ -8511,7 +8519,7 @@ input,
 textarea,
 select,
 .uneditable-input {
-  border: 1px solid #bbb;
+  border: 1px solid      #bbb;
   margin-bottom: 15px;
 }
 
